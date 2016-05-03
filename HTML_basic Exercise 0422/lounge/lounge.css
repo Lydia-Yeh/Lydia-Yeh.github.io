@@ -1,0 +1,19 @@
+p.area01{
+	width:30%;
+	padding: 4%;
+	line-height: 40px;
+	padding-left: 20%;
+	margin:auto;
+	text-align: center;/*只針對內容區塊，不是整個方框*/
+	/*如果是整個方框置中，就是要設定上下左右的padding都一樣px*/
+	margin-top: 30px;
+	margin-bottom: 20px;
+	background-color: royalblue;
+	border-width: 3px; 
+	border-style:dashed;
+	border-color:white;
+	border-radius: 20px;
+	background-image:url(images/flower.png);
+	background-position: top left;
+	background-repeat: no-repeat;	
+}
