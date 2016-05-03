@@ -1,0 +1,40 @@
+h1{
+	text-align: center;
+	font-family: 'Satisfy',cursive;
+	font-weight: bold;
+	text-decoration:underline overline
+}
+
+h2{
+	font-family: 'Satisfy',cursive;
+}
+
+
+p{
+	border-style: solid;
+	border-color: 
+	padding: 25px
+}
+
+a.End{
+	text-align: right;
+	font-weight: bold;
+	font-size: 20px
+
+}
+
+p#green{
+	background-color: Azure;
+}
+
+p#blue{
+	background-color: powderblue;
+}
+
+p#purple{
+	background-color: lavender;
+}
+
+p#red{
+	background-color: antiquewhite;
+}
