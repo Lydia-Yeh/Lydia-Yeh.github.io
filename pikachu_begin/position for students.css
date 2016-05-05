@@ -1,0 +1,93 @@
+/*寬大約760像素；高約1560像素*/
+/*插入圖片語法 background-image: url(flash.png);*/
+
+body{
+	background-color: #f6e652;
+	position:relative;
+}
+
+.circle1{
+	color:#f6e652;
+	background-color: #e65a41;
+	background-size: 70%;
+	position:absolute;
+	width: 300px;
+	height:300px;
+	border-radius: 50%;
+	top: -120px;
+	left: 390px;
+	box-sizing: border-box;
+	padding-top:100px;
+	padding-left: 90px; 
+	background-repeat: no-repeat;
+}
+
+.circle2{
+	color: white;
+	background-color: #9c5200;
+	position:absolute;
+	width: 280px;
+	height:280px;
+	border-radius: 50%;
+	top: 200px;
+	left: 280px;
+	box-sizing: border-box;
+	padding-top: 95px;
+	padding-left: 50px;
+	
+}
+
+.circle3{
+	background-color: white;
+	position:absolute;width: 500px;
+	height:500px;
+	border-radius: 50%;
+	box-sizing: border-box;
+	text-align: center;
+	top: 130px;
+	left: 530px;
+	padding-top: 120px;
+}
+
+.circle4{
+	background-color: white;
+	background-size: 70%;
+	position:absolute;
+	width: 190px;
+	height:190px;
+	border-radius: 50%;
+	box-sizing: border-box;
+	left: 850px;
+	padding-top: 30px;
+	padding-left: 30px;
+	background-repeat: no-repeat;
+}
+
+.circle5{
+	color: white;
+	background-color: #9c5200;
+	position:fixed;
+	width: 100px;
+	height:100px;
+	border-radius: 50%;
+	position:fixed;
+	top: 530px;
+	left: 1250px;
+	box-sizing: border-box;
+	padding-left:2px; 
+	text-align: center;
+}
+
+.circle6{
+	color: #f6e652;
+	background-color: #e65a41;
+	position:absolute;
+	width: 200px;
+	height:200px;
+	border-radius: 50%;
+	top: 640px;
+	left:530px;
+	box-sizing: border-box;
+	padding-top: 85px;
+	text-align: center;
+}
