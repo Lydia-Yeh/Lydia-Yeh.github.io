@@ -3,11 +3,6 @@
     font-family: sans-serif;
 }
 
-[class*="col-"] {
-    float: left;
-    padding: 15px;
-}
-
 @media screen and (min-width: 1200px) {
     /*視窗寬度 >= 1200px，將使用這裡的 CSS。*/
     .col-lg-1 {
@@ -129,15 +124,44 @@
 }
 
 
-.header{
+body{
+	margin:0px;
+}
+
+.row{
+	position:relative;
+    clear: both;
+    display: block;
+}
+
+.row:after {
+    content:"";
+    display: block;
+    clear:both;
+}
+
+
+[class*='col-'] {
+    float: left;
+}
+
+.container{
+	position: relative;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+
+.nav{
     position: fixed;
     background-color: #000;
     height: 50px;
     width: 100%;
     clear: both;
     display: block;
+    margin:auto;
+    padding-left: 16.66%;
     z-index: 1;
-
 }
 
 ul li{
@@ -147,43 +171,18 @@ ul li{
 	color: #AAA;
 	text-align: center;
     list-style: none;
-    font-size: 13pt;
-    position: relative;
-    left: 15%;
-    width:90px;
-}
-
-.row{
-    position:relative;
-    clear: both;
-    display: block;
-}
-
-.first{
-    position:relative;
-    clear: both;
-    display: block;
-    height: 320px;
-    top: 100px;
-    margin-bottom: 50px;
+    font-size: 12pt;
+    width:120px;
 
 }
+
 
 .welcome{
-    height: 260px;
     background-color: #EDEDED;
-    padding: 45px;
-    
-
+    margin-top:100px;
+    padding: 40px;
+    margin-bottom: 20px;
 }
-
-.picture{
-    margin: auto;
-    max-height: 100%;
-    max-width: 100%;
-}
-
-
 
 .button0{
     background-color: #06F;
@@ -197,9 +196,25 @@ ul li{
     height: 35px;
     line-height: 35px;
     border-radius: 5px;
-    margin-bottom: 10px;
+
+}
 
 
+.subcontainer{
+    position: relative;
+    clear: both;
+    left: 16.66%;
+    right: 16.66%;
+}
+
+
+.picture{
+    padding-left: 1%;
+    padding-right: 1%;
+    max-height: 100%;
+    max-width: 100%;
+    margin:auto;
+    overflow: hidden;
 }
 
 .button1{
@@ -215,7 +230,6 @@ ul li{
     line-height: 35px;
     border-radius: 5px;
 
-
 }
 
 .button2{
@@ -230,3 +244,4 @@ ul li{
     line-height: 35px;
     border-radius: 5px;
 }
+
